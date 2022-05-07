@@ -1,0 +1,117 @@
+/*
+CONTAINER
+LINK COLORS
+
+*/
+
+
+    
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+}
+
+.navbar li {
+    display: block;
+    float: left;
+}
+
+.navbar a {
+    display: block;
+}
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+/* CONTAINER */
+body {
+  font-family:'Cousine',monospace;
+  font-size:12px;
+  letter-spacing:1px;
+  line-height:130%;
+}
+
+html, body {margin:0;padding:0;height:100%} /* important for full height */
+.wrapper {
+  background-image:url("http://i.imgur.com/KCS26kF.png");
+  background-repeat:repeat;
+  min-height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#gen { /* main body */
+  min-height: 100%; 
+  display: table;
+  width: 100%;
+  color: black;
+  border-spacing: 50px;
+}
+
+
+#side { 
+  background-image:url("http://i.imgur.com/mX9JII5.png");
+  background-repeat:repeat;
+  display:table-cell;
+  width: 20%;
+  height:100%;
+  padding:10px; /* padding instead of border spacing since it is display:table-cell */
+}
+
+/* text */      
+h1 {
+  font-family:Arial,sans-serif;
+  font-size:35px;
+  line-height:120%;
+}
+
+h3 {
+  font-family:Arial,sans-serif;
+  font-size:25px;
+  line-height:120%;
+  border-bottom: 1px solid white;
+}
+/* L I N K S */
+  /* normal links */
+
+  a:link {
+    background-color:#ECF09E;color:black;text-decoration:none;}
+  a:visited   
+    {background-color:#ECF09E;color:black;text-decoration:none;}
+  a:hover {
+      background-color: black;
+      color: white;text-decoration: none;}
+  a:active {
+    background-color:#ECF09E;color:black;text-decoration:none;}
+  
+    /* red links*/
+  
+  a.red:link {
+    background-color:#f9d9d9;color:black;text-decoration:none;}
+ a.red:visited {
+    background-color:#f9d9d9;color:black;text-decoration:none;}
+a.red:hover {
+      background-color: #f9d9d9;
+      color: white;text-decoration: none;}
+a.red:active {
+    background-color:#f9d9d9;color:black;text-decoration:none;}
+  
+  /* green links */
+a.gr: {background-color:#d5efe0}
+a.gr:link {
+     background-color:#d5efe0;color:black;text-decoration:none;}
+a.gr:visited {
+      background-color:#d5efe0;color:black;text-decoration:none;}
+a.gr:hover {
+      background-color: black;
+      color: white;text-decoration: none;}
+a.gr:active {
+      background-color:#d5efe0;color:black;text-decoration:none;}
+  
+/* */
